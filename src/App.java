@@ -1,3 +1,7 @@
+import java.util.List;
+
+import Models.Book;
+
 public class App {
     public static void main(String[] args) throws Exception {
 
@@ -33,6 +37,11 @@ public class App {
                 new Book("Deep Learning", 2016),
                 new Book("The Elements of Statistical Learning", 2001)
         };
+
+        public static void(List[] listas){
+            System.out.println("Escriba el nombre y el año del libro que esta deseando:" );
+            
+        }
 
     }
 }
